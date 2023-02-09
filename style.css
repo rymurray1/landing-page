@@ -3,7 +3,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Helvetica, Arial, sans-serif;
 }
 
 .header{
@@ -17,6 +17,12 @@ body{
     align-items: center;
 }
 
+.header img{
+    max-height: 70px;
+    margin-left: 32px;
+    flex: auto;
+}
+
 a{
     text-decoration: none;
     color: #E5E7EB;
@@ -24,9 +30,9 @@ a{
 
 img{
     display: flex;
-    height: 150px;
     padding: 16;
     border-radius: 7px;
+    height: 150px;;
 }
 
 ul{
@@ -48,11 +54,23 @@ ul{
 
 .title{
     display: flex;
+    flex-direction: column;
     padding:32px;
     font-size: 36px;
     font-weight: 700;
     color:#1F2937;
     text-align: center;
+}
+
+.title1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.title2{
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
 }
 
 .container{
@@ -81,7 +99,7 @@ ul{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style:italic;
     font-weight:100px;
-    height: 150px;
+    flex: auto;
     padding: 48px;
     display: flex;
     justify-content: center;
@@ -109,6 +127,7 @@ ul{
     padding:16px 64px 16px 64px;
     border-radius: 7px;
     width: 600px;
+    text-align: center;
     
 }
 
@@ -119,4 +138,5 @@ button{
     margin:32px;
     color: #E5E7EB;
     border-radius: 2px;
+    border: 2px solid #E5E7EB;
 }
