@@ -40,10 +40,10 @@ ul{
     display: flex;
     flex-direction: column;
     margin-top: 32px;
-    height: 300px;
     align-items: center;
     justify-content: center;
     padding: 32px;
+    flex-grow: 1;
 }
 
 .title{
@@ -52,6 +52,7 @@ ul{
     font-size: 36px;
     font-weight: 700;
     color:#1F2937;
+    text-align: center;
 }
 
 .container{
@@ -85,6 +86,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .footer{
