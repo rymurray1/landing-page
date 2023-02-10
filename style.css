@@ -8,27 +8,65 @@ body{
 
 .header{
     display: flex;
-    flex: auto;
+    flex-direction: column;
     font-size: 32px;
     padding: 16px;
     background: #1F2937;
     color: white;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.header img{
+.head-top{
+    display: flex;
+    justify-content:space-around;
+}
+
+.head-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    padding:16px;
+    align-items: center;
+    justify-content: center;
+}
+.head-bottom img{
+    display: flex;
+    flex-shrink: 1;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+}
+
+.sign-up button {
+    background-color: #1F2937;
+    width: 150px;
+    height: 30px;
+    color: #E5E7EB;
+    border-radius: 2px;
+    border: 2px solid #E5E7EB;
+}
+
+.head-image img{
     max-height: 70px;
     margin-left: 32px;
-    flex: auto;
 }
+
 
 a{
     text-decoration: none;
     color: #E5E7EB;
   }
 
-img{
+.content img{
     display: flex;
     padding: 16;
     border-radius: 7px;
@@ -75,7 +113,7 @@ ul{
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     gap: 52px;
     flex-wrap: wrap;
 }
@@ -86,7 +124,7 @@ ul{
     align-items: center;
 }
 
-.text{
+.info.text{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -104,6 +142,8 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left:20%;
+    padding-right:20%;
     
 }
 
@@ -131,7 +171,7 @@ ul{
     
 }
 
-button{
+.card button{
     background-color: #1F2937;
     width: 150px;
     height: 30px;
